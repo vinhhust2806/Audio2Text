@@ -1,0 +1,4 @@
+imageio==2.4.1
+pydub
+transformers==4.9.2 soundfile datasets==1.11.0 pyctcdecode==v0.1.0
+https://github.com/kpu/kenlm/archive/master.zip
