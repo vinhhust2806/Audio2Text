@@ -1,9 +1,12 @@
 import glob
+import os
 from setup import *
 from utils import *
 
 #video_file: video.mp4
 #audio_file: audio.wav
+
+os.makedirs('script/',exist_ok=True)
 #folder contain smaller audios: /script
 
 convert_video_to_audio_moviepy("video.mp4", "audio.wav")
