@@ -1,4 +1,4 @@
 # Audio2Text
-**How to run:
+## How to run:
 
 python run.py
