@@ -2,6 +2,10 @@ import glob
 from setup import *
 from utils import *
 
+#video_file: video.mp4
+#audio_file: audio.wav
+#folder contain smaller audios: /script
+
 convert_video_to_audio_moviepy("video.mp4", "audio.wav")
 split_wav = SplitWavAudioMubin('/script', 'audio.wav')
 split_wav.multiple_split(min_per_split=1)
